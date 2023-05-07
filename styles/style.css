@@ -38,10 +38,14 @@ body {
     gap: 10%;
 }
 .cabecalho__menu__link{
-
+    color: #c00bf7;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    text-decoration: none;
+}
+.cabecalho__menu__link:hover{
+    color: #ffffff;
 }
 .titulo-destaque {
     color: #c00bf7;
