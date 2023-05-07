@@ -5,7 +5,7 @@
     padding: 0;
 }
 .apresentacao {
-    margin:10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,9 +26,22 @@
 }
 body {
     box-sizing: border-box;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: black;
     color: white;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 10%;
+}
+.cabecalho__menu__link{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
 .titulo-destaque {
     color: #c00bf7;
@@ -70,4 +83,12 @@ body {
 .apresentacao__links__link:hover{
     background-color:#ff3399;
     /* padding: 2%; */
+}
+.rodape{
+    background-color: #c00bf7;
+    color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
